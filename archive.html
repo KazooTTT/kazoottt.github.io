@@ -75,6 +75,15 @@ https://github.com/kitian616/jekyll-TeXt-theme
 							</h3>
 							{% endif %}
 						</a>
+						<div class="post-meta">
+							<div class="tags">
+								{% for tag in _article.tags %}
+								<a class="tag" href="{{ site.baseurl }}archive/?tag={{ tag | url_encode }}" title="{{ tag }}">{{ tag
+									}}</a>
+								{% endfor %}
+							</div>
+							<div class="post-date">{{ _article.date | date: "%Y-%m-%d"}}</div>
+						</div>
 						<hr>
 					</div>
 					{%- if forloop.last -%}
