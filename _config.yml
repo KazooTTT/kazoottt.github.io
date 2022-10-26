@@ -92,5 +92,6 @@ page-mathjax: false
 # Friends
 friends:
   [
-    { title: "KazooTTT Github", href: "http://www.github.com/kazoottt" },
+    { title: "Yuang's Blog", href: "https://yuuuuang.com/" },
+    { title: "huaiying", href: "https://blog.csdn.net/huaiyingdetective" },
   ]
