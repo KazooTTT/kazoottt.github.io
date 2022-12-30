@@ -77,6 +77,9 @@ ba_track_id: ba04ae1f50c2362427260b42028f132d
 ga_track_id: "UA-144235674-1" # Format: UA-xxxxxx-xx
 ga_domain: kazoottt.github.io
 
+# Google gtag.js
+ga_gtag_id: "G-BPH3QLNNLW" 
+
 # Sidebar settings
 sidebar: true # whether using Sidebar or not
 sidebar-about-description: "每天变好一点点"
