@@ -59,8 +59,12 @@ kramdown:
       line_numbers: true
       start_line: 1
 
+
+# giscus
+giscus: true
+
 # Disqus settings
-disqus_username: kazoo310
+disqus_username: false
 
 # Netease settings
 netease_comment: false
