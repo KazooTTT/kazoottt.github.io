@@ -50,6 +50,11 @@ layout: default
                 </ul>
                 <hr style="visibility: hidden;">
 
+                {% if site.image_clickable %}
+                <!-- 图片点击放大 -->
+                {% include clickable-image.html %}
+                {% endif %}
+
                 {% if site.disqus_username %}
                 <!-- disqus 评论框 start -->
                 <div class="comment">
